@@ -1,0 +1,196 @@
+.features {
+  padding: 160px 0;
+  margin-bottom: 100px;
+  background-image: url("http://pixner.net/mosto/demo/ltr/light/assets/images/feature/to-access-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.ball-2,
+.ball-3,
+.ball-4,
+.ball-5 {
+  position: absolute;
+  opacity: 0.6;
+}
+.ball-2 {
+  top: 15%;
+  right: 15%;
+  animation: zigZagClockwise 40s alternate infinite;
+}
+
+.ball-4 {
+  top: 50%;
+  left: 5%;
+  animation: zigZagCounterClockwise 40s alternate infinite;
+}
+
+.features-header {
+  margin: 0 auto 60px;
+  text-align: center;
+  max-width: 620px;
+  position: relative;
+  z-index: 1;
+}
+.features-header h5 {
+  color: #ff8a00;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.features-header h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 64px;
+  color: #3b368c;
+}
+.features-header p {
+  font-size: 18px;
+  color: #504c89;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+.feature-item {
+  padding: 60px 15px;
+  text-align: center;
+  margin: 0 auto 30px;
+  border-radius: 25px;
+  background-color: rgba(225, 232, 255, 1);
+  box-shadow: 3.871px 15.525px 68px 0 rgba(29, 40, 143, 0.5);
+  position: relative;
+  z-index: 1;
+}
+.feature-item * {
+  position: relative;
+  z-index: 1;
+}
+.feature-item::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-image: url("http://pixner.net/mosto/demo/ltr/light/assets/images/balls/balls.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.feature-item.active-1::before {
+  opacity: 1;
+  background-position: center;
+}
+.feature-item.active-2::before {
+  opacity: 1;
+  background-position: top right;
+}
+.feature-thumb {
+  margin: 0 auto 30px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.feature-thumb span.animation {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid #504c89;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  animation: rotate 8s linear infinite;
+}
+.feature-thumb span.animation::after {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  left: auto;
+  right: 3px;
+  top: 3px;
+  bottom: auto;
+  position: absolute;
+  content: "";
+  background: linear-gradient(0deg, #e2906e 0, #e83a99 100%);
+  box-shadow: 1.21px 4.851px 6.72px 0.28px rgba(232, 58, 153, 0.39);
+}
+.feature-thumb span.animation::before {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  right: auto;
+  left: 7px;
+  bottom: 7px;
+  top: auto;
+  position: absolute;
+  content: "";
+  background: linear-gradient(0deg, #e2906e 0, #e83a99 100%);
+  box-shadow: 1.21px 4.851px 6.72px 0.28px rgba(232, 58, 153, 0.39);
+}
+.feature-content h5 {
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #3b368c;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(1440deg);
+  }
+}
+
+@keyframes zigZagClockwise {
+  0% {
+    transform: rotate(0) translate(-10px, -10px);
+  }
+  20% {
+    transform: rotate(360deg) translate(-100px, -100px);
+  }
+  40% {
+    transform: rotate(0) translate(100px, 100px);
+  }
+  60% {
+    transform: rotate(360deg) translate(10px, 10px);
+  }
+  80% {
+    transform: rotate(0) translate(70px, 70px);
+  }
+  100% {
+    transform: rotate(360deg) translate(-10px, -10px);
+  }
+}
+
+@keyframes zigZagCounterClockwise {
+  0% {
+    transform: rotate(0) translate(-10px, -10px);
+  }
+  20% {
+    transform: rotate(-360deg) translate(-100px, -100px);
+  }
+  40% {
+    transform: rotate(0) translate(100px, 100px);
+  }
+  60% {
+    transform: rotate(-360deg) translate(10px, 10px);
+  }
+  80% {
+    transform: rotate(0) translate(70px, 70px);
+  }
+  100% {
+    transform: rotate(-360deg) translate(-10px, -10px);
+  }
+}

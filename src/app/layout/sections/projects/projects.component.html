@@ -1,0 +1,53 @@
+<div class="projects">
+  <div class="content-wrapper">
+    <div class="top-shape d-none d-lg-block">
+      <img
+        src="
+      http://pixner.net/mosto/demo/ltr/light/assets/css/img/top-shape.png"
+      />
+    </div>
+    <div class="bottom-shape d-none d-lg-block">
+      <img
+        src="
+      http://pixner.net/mosto/demo/ltr/light/assets/css/img/top-shape.png"
+      />
+    </div>
+    <div class="container">
+      <div class="col-sm-12">
+        <div class="projects-title text-center">
+          <h5>Our Best Design</h5>
+          <h2>Let's See what you can Achieve</h2>
+        </div>
+      </div>
+      <div class="col-sm-12 text-center">
+        <div class="categories-wrapper">
+          <ul class="categories">
+            <li
+              *ngFor="let tab of tabs; let id = index"
+              (click)="filtering(tab.filterAttr)"
+            >
+              {{ tab.name }}
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row grid mt-4">
+        <div
+          class="grid-item col-md-4 mb-5 product-block"
+          *ngFor="let data of listData"
+          [class]="data.filterAttr"
+        >
+          <span class="card">
+            <img [src]="data.img1" />
+          </span>
+          <span class="card">
+            <img [src]="data.img2" />
+          </span>
+          <span class="card">
+            <img [src]="data.img3" />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

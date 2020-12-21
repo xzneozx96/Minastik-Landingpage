@@ -1,0 +1,122 @@
+.contact {
+  padding: 50px 0;
+}
+/* style contact-title */
+.contact-title {
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto 40px;
+}
+.contact-title h5 {
+  color: #ff8a00;
+  margin-bottom: 20px;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.contact-title h2 {
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 700;
+  color: #3b368c;
+  text-transform: capitalize;
+}
+.contact-title p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #504c89;
+}
+
+/* style contact-area */
+.contact-item {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.contact-item-content {
+  align-self: center;
+  padding-left: 30px;
+}
+.contact-item-content h5 {
+  color: #3b368c;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+.contact-item-content span {
+  color: #504c89;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* style contact-form */
+form {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 11px 19.2px 0.8px rgba(66, 58, 232, 0.1);
+  padding: 50px 40px;
+}
+.form-group label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3b368c;
+  font-family: "Josefin Sans", sans-serif;
+}
+.form-group input {
+  height: 50px;
+  padding: 15px !important;
+  font-family: "Open Sans", sans-serif;
+}
+.form-group textarea {
+  height: 200px;
+  padding: 15px !important;
+  font-family: "Open Sans", sans-serif;
+}
+button {
+  padding: 15px 40px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white !important;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(-65deg, #c165dd 0, #1153fc 100%);
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+button:hover {
+  box-shadow: 0 17px 24px 0 rgba(18, 83, 252, 0.51);
+}
+
+.man {
+  position: absolute;
+  top: -5%;
+  right: 0%;
+  pointer-events: none;
+  transform: translateY(-50%) scaleX(-1);
+}
+
+.planet {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: float2 2s infinite ease-in-out;
+}
+
+@keyframes float2 {
+  0% {
+    transform: translateX(-70%) translateY(-10%);
+  }
+
+  50% {
+    transform: translateX(-70%) translateY(-5%);
+  }
+
+  100% {
+    transform: translateX(-70%) translateY(-10%);
+  }
+}

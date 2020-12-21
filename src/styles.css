@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #f0f5fc;
+}
+
+a,
+button {
+  transition: all 0.3s ease-out 0s;
+}
+a:focus,
+button:focus {
+  text-decoration: none;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #504c89 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #252525;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: normal;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
