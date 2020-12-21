@@ -9,13 +9,11 @@
 
 header.sticky {
   top: 0;
-  background-color: #3b368c;
+  background-color: white;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 }
-header.sticky ul.menu li.menu-item a {
-  color: white;
-}
+
 header.sticky .header-btn {
-  color: white;
   border-color: #665cb2;
 }
 header.sticky .header-btn:hover {
@@ -49,8 +47,9 @@ ul.menu li.menu-item a {
   padding: 7px 10px;
 }
 
-.header-btn {
+a.header-btn {
   color: #3b368c;
+  cursor: pointer;
   font-weight: 600;
   font-size: 18px;
   text-transform: uppercase;
@@ -59,7 +58,7 @@ ul.menu li.menu-item a {
   padding: 15px 30px;
   background-color: transparent;
 }
-.header-btn:hover {
+a.header-btn:hover {
   background: white;
 }
 
@@ -151,7 +150,9 @@ ul.menu li.menu-item a {
   ul.menu.active {
     transform: scaleY(1);
   }
-
+  .logo img {
+    margin-bottom: 0 !important;
+  }
   header.sticky .header-bar span {
     background-color: white;
   }

@@ -17,10 +17,8 @@ export class HeaderComponent implements OnInit {
       const headerElement = document.getElementById('header');
       if (window.scrollY > 100) {
         headerElement.classList.add('sticky');
-        this.logoLink = 'http://pixner.net/mosto/demo/ltr/light/assets/images/logo/logo.png';
       } else {
         headerElement.classList.remove('sticky');
-        this.logoLink = 'http://pixner.net/mosto/demo/ltr/light/assets/images/logo/logo2.png';
       }
     });
   }
@@ -29,15 +27,6 @@ export class HeaderComponent implements OnInit {
     const headerElement = document.getElementById('header');
     const overlayElement = document.getElementById('overlay');
     this.activeBars = !this.activeBars;
-    if (!overlayElement.classList.contains('active') && headerElement.classList.contains('sticky')) {
-      this.logoLink = 'http://pixner.net/mosto/demo/ltr/light/assets/images/logo/logo.png';
-    }
-    else if (!overlayElement.classList.contains('active') && !headerElement.classList.contains('sticky')) {
-      this.logoLink = 'http://pixner.net/mosto/demo/ltr/light/assets/images/logo/logo.png';
-    }
-    else if (overlayElement.classList.contains('active') && !headerElement.classList.contains('sticky')) {
-      this.logoLink = 'http://pixner.net/mosto/demo/ltr/light/assets/images/logo/logo2.png';
-    }
   }
 
   selectElement(elementID: string): void {
