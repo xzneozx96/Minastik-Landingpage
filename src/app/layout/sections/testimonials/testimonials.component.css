@@ -133,3 +133,51 @@
     transform: translateX(0) translateY(0);
   }
 }
+
+/* responsive */
+@media (min-width: 991px) and (max-width: 1199px) {
+  .testi {
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .testi {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .testi-title h2 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 10px;
+  }
+  .testi-title h5 {
+    line-height: 28px;
+    margin-bottom: 10px;
+  }
+  .member {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .testi-title h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .testi-title h5 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .testi-title p {
+    font-size: 16px;
+  }
+
+  .member {
+    margin-bottom: 40px;
+  }
+  .member-thumb {
+    margin-bottom: 20px;
+  }
+}

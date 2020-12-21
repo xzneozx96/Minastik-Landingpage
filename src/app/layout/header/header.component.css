@@ -39,6 +39,7 @@ ul.menu {
 }
 ul.menu li.menu-item {
   padding: 12px 24px;
+  cursor: pointer;
 }
 ul.menu li.menu-item a {
   color: #3b368c;

@@ -64,6 +64,7 @@ ul.footer-links {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 ul.footer-links li {
   padding: 5px 40px;
@@ -97,4 +98,28 @@ ul.footer-links li:hover a {
 .copy-right span {
   color: #ee4730;
   font-weight: 600;
+}
+
+/* responsive */
+@media (max-width: 767px) {
+  .footer::before {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-top {
+    padding: 30px 0;
+  }
+
+  ul.footer-links li {
+    padding: 5px 15px;
+  }
+  ul.footer-links li a {
+    font-size: 16px;
+  }
+  .copy-right {
+    padding: 20px 0;
+    font-size: 16px;
+  }
 }

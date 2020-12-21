@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScrollIntoViewService } from 'src/app/shared/services/scroll-into-view.service';
 
 @Component({
   selector: 'app-header',
@@ -9,7 +10,7 @@ export class HeaderComponent implements OnInit {
   logoLink = 'http://pixner.net/mosto/demo/ltr/light/assets/images/logo/logo2.png';
   activeBars = false;
 
-  constructor() { }
+  constructor(private scrollIntoViewService: ScrollIntoViewService) { }
 
   ngOnInit(): void {
     window.addEventListener('scroll', () => {
@@ -37,6 +38,11 @@ export class HeaderComponent implements OnInit {
     else if (overlayElement.classList.contains('active') && !headerElement.classList.contains('sticky')) {
       this.logoLink = 'http://pixner.net/mosto/demo/ltr/light/assets/images/logo/logo2.png';
     }
+  }
+
+  selectElement(elementID: string): void {
+    this.scrollIntoViewService.scrollIntoView(elementID);
+    this.activeBars = false;
   }
 
 }
