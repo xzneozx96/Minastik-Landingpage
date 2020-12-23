@@ -117,8 +117,13 @@
               "devServerTarget": "minastik-landingpage:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "minastik-landingpage"
 }
