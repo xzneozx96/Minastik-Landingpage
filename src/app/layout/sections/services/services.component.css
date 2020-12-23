@@ -47,7 +47,7 @@
   font-weight: 700;
   font-size: 54px;
   line-height: 64px;
-  color: #3b368c;
+  color: #3B5998;
 }
 .features-header p {
   font-size: 18px;
@@ -105,7 +105,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 1px solid #504c89;
+  border: 1px solid #4267b2;;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -141,7 +141,7 @@
   font-size: 25px;
   line-height: 28px;
   font-weight: 600;
-  color: #3b368c;
+  color: #3B5998;
 }
 
 @keyframes rotate {
