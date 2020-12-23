@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "minastik-d10c9": {
+      "hosting": {
+        "minastik-landingpage": [
+          "minastik-d10c9"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "minastik-d10c9"
+  }
+}

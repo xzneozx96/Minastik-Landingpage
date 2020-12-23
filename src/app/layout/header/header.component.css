@@ -30,14 +30,23 @@ header.sticky .header-btn:hover {
   width: 140px;
 }
 
+.logo img {
+  cursor: pointer;
+}
+
 ul.menu {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+li.employess {
+  display: none;
+}
+
 ul.menu li.menu-item {
   padding: 12px 24px;
-  cursor: pointer;
+  
 }
 ul.menu li.menu-item a {
   color: #3b368c;
@@ -45,6 +54,7 @@ ul.menu li.menu-item a {
   font-size: 18px;
   text-transform: capitalize;
   padding: 7px 10px;
+  cursor: pointer;
 }
 
 a.header-btn {
@@ -105,9 +115,9 @@ a.header-btn:hover {
 .header-bar span:last-child {
   bottom: 0;
 }
-.header-bar.active span {
+/* .header-bar.active span {
   background: white;
-}
+} */
 .header-bar.active span:first-child {
   transform: rotate(45deg) translate(3px, 9px);
 }
@@ -139,6 +149,11 @@ a.header-btn:hover {
     width: 100%;
     padding: 0;
   }
+
+  li.employess {
+    display: inline-block;
+  }
+
   ul.menu li a {
     display: flex;
     align-items: center;
@@ -153,9 +168,14 @@ a.header-btn:hover {
   .logo img {
     margin-bottom: 0 !important;
   }
-  header.sticky .header-bar span {
+
+  .header-section {
     background-color: white;
+    top: 0px !important;
   }
+  /* header.sticky .header-bar span {
+    background-color: white;
+  } */
   header.sticky ul.menu li.menu-item a {
     color: #3b368c;
   }
