@@ -49,7 +49,7 @@ ul.menu li.menu-item {
   
 }
 ul.menu li.menu-item a {
-  color: #3b368c;
+  color: #3B5998;
   font-weight: 600;
   font-size: 18px;
   text-transform: capitalize;
@@ -58,12 +58,12 @@ ul.menu li.menu-item a {
 }
 
 a.header-btn {
-  color: #3b368c;
+  color: #3B5998;
   cursor: pointer;
   font-weight: 600;
   font-size: 18px;
   text-transform: uppercase;
-  border: 1px solid #3b368c;
+  border: 1px solid #3B5998;
   border-radius: 30px;
   padding: 15px 30px;
   background-color: transparent;
@@ -97,7 +97,7 @@ a.header-btn:hover {
   margin-left: auto;
 }
 .header-bar span {
-  background: #3b368c;
+  background: #3B5998;
   position: absolute;
   display: inline-block;
   height: 3px;
@@ -158,7 +158,7 @@ a.header-btn:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #3b368c;
+    color: #3B5998;
     border-bottom: 1px solid rgba(59, 54, 140, 0.1);
     padding: 10px 15px;
   }
@@ -177,7 +177,7 @@ a.header-btn:hover {
     background-color: white;
   } */
   header.sticky ul.menu li.menu-item a {
-    color: #3b368c;
+    color: #3B5998;
   }
 }
 
