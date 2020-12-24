@@ -46,12 +46,14 @@ export class HeaderComponent implements OnInit {
 
   chooseEN() {
     this.activeList = false;
+    this.activeBars = false;
     this.language = 'EN';
     this.translate.use('en');
   }
 
   chooseVI() {
     this.activeList = false;
+    this.activeBars = false;
     this.language = 'VI';
     this.translate.use('vi')
   }
