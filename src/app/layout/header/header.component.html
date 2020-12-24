@@ -1,6 +1,6 @@
 <div class="overlay" [ngClass]="{ active: activeBars }" id="overlay"></div>
 <header class="header-section" id="header">
-  <div class="container">
+  <div class="container container-header" >
     <div class="header-wrapper">
       <div class="logo">
         <a>
@@ -12,16 +12,16 @@
         </a>
       </div>
       <ul class="menu" [ngClass]="{ active: activeBars }">
-        <li class="menu-item"><a (click)="selectElement('app-main')">Home</a></li>
-        <li class="menu-item"><a (click)="selectElement('about')">About</a></li>
+        <li class="menu-item"><a (click)="selectElement('app-main')">{{"HEADER.HOME" | translate}}</a></li>
+        <li class="menu-item"><a (click)="selectElement('about')">{{"HEADER.ABOUT" | translate}}</a></li>
         <li class="menu-item">
-          <a (click)="selectElement('features')">Features</a>
+          <a (click)="selectElement('features')">{{"HEADER.FEATURES" | translate}}</a>
         </li>
         <li class="menu-item">
-          <a (click)="selectElement('projects')">Projects</a>
+          <a (click)="selectElement('projects')">{{"HEADER.PRJ" | translate}}</a>
         </li>
         <li class="menu-item">
-          <a (click)="selectElement('contact')">Contact</a>
+          <a (click)="selectElement('contact')">{{"HEADER.CONTACT" | translate}}</a>
         </li>
         <li class="employess menu-item">
           <a href="">Employees Only</a>
@@ -37,7 +37,17 @@
         <span></span>
       </div>
       <div class="cta-btn d-none d-lg-block">
-        <a class="header-btn">Employees Only</a>
+        <div class="cta-btn-list">
+          <div>
+            <span (click)="showListLang()">{{language}}</span>
+            <svg (click)="showListLang()" [ngClass]="{ show_arrow: activeList }" class="arrow" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+            <ul class="list" [ngClass]="{ show_list: activeList }">
+              <li (click)="chooseVI()">VI</li>
+              <li (click)="chooseEN()">EN</li>
+            </ul>
+          </div>
+          <a class="header-btn">{{"HEADER.EMP" | translate}}</a>
+        </div>
       </div>
     </div>
   </div>

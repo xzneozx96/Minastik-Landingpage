@@ -1,0 +1,84 @@
+{
+    "HEADER": {
+        "HOME": "Home",
+        "ABOUT": "About",
+        "FEATURES": "Features",
+        "PRJ": "Products",
+        "CONTACT": "Contact",
+        "EMP": "EMPLOYEES ONLY"
+    },
+    "BANNER": {
+        "TITLE": "Need a Website to Grow your Business?",
+        "DESC": "Our functional stunning Websites will take your brand to the next level"
+    },
+    "ABOUT": {
+        "SUB": "A Few Words About Us",
+        "TITLE": "We’re an empowering team to achieve greatness together",
+        "DESC": "We are a passionate team of software developers, marketers, and designers focused on driving results for our clients in the fast-growing. We are making products loved by users all over the world.",
+        "INFO_CLIENTS": "Clients",
+        "INFO_PROVINCES": "Provinces",
+        "INFO_SATI": "Satisfaction"
+    },
+    "WE_DO": {
+        "TITLE": "What We Provide",
+        "SUB_TITLE": "Premium Services",
+        "DESC": "We spend a lot of time researching tons of different top-notch technologies from top companies to create fastest and most functional websites for our clients.",
+        "T1": "Web Development",
+        "S1": "We design and make websites from scratch",
+        "T2": "Fully Responsive",
+        "S2": "Your Website is available on all devices",
+        "T3": "Easy Customize",
+        "S3": "Update your website easily with just a click",
+        "T4": "Data Protection",
+        "S4": "We guarantee your database is highly secured"
+    },
+    "CHOOSE_US": {
+        "TITLE": "Why Choose Us",
+        "SUB_TITLE": "We Strive to Create Amazing Websites",
+        "DESC": "We are a passionate team of software developers, marketers, and designers focused on driving results for our clients in the fast-growing. We are making products loved by all users."
+    },
+    "FEATURES": {
+        "TITLE": "Extra Amazing Features that will",
+        "SUB_TITLE": "Boost Your Website",
+        "DESC": "In the process of making a app, the satisfaction of users is the most important and the focus is on usability and completeness.",
+        "T1": "Productivity",
+        "T2": "Optimization",
+        "T3": "Safety",
+        "T4": "Sustainability"
+    },
+    "PRODUCT": {
+        "TITLE": "Our Best Products",
+        "DESC": "Let's See What You Can Achieve"
+    },
+    "MEMBER": {
+        "TITLE": "Meet our team",
+        "SUB": "Expert Team Members",
+        "DESC": "Our team of creative programmers, marketing experts, and members. We are to doing what we love the most"
+    },
+    "CONTACT": {
+        "TITLE": "Stop wasting time",
+        "SUB": "Have Troubles Growing Your Business?",
+        "DESC": "Our Experts will be here for you whenever needed",
+        "T1": "Email Us",
+        "T2": "Call Us",
+        "T3": "Visit Us",
+        "I1": "Your full name",
+        "P1": "Enter your full name",
+        "I2": "Your company name",
+        "P2": "Enter your company name",
+        "I3": "Your phone number",
+        "P3": "Enter your phone name",
+        "I4": "Your email",
+        "P4": "Enter your email",
+        "I5": "Your message",
+        "P5": "Enter your message",
+        "BTN": "SEND",
+        "ADDRESS": "125D Minh Khai - Skylight residence, Hai Ba Trung, Hanoi"
+    },
+    "FOOTER": {
+        "T1": "About",
+        "T2": "Contact",
+        "T3": "Terms of Service",
+        "T4": "Privacy"
+    }
+}

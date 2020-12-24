@@ -4,7 +4,7 @@
 /* style contact-title */
 .contact-title {
   text-align: center;
-  max-width: 620px;
+  max-width: 650px;
   margin: 0 auto 40px;
 }
 .contact-title h5 {
@@ -73,7 +73,7 @@ form {
   font-family: "Open Sans", sans-serif;
 }
 button {
-  padding: 15px 40px;
+  padding: 15px 60px;
   font-size: 18px;
   text-transform: uppercase;
   color: white !important;
