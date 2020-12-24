@@ -1,0 +1,84 @@
+{
+    "HEADER": {
+        "HOME": "Trang chủ",
+        "ABOUT": "Về chúng tôi",
+        "FEATURES": "Dịch vụ",
+        "PRJ": "Sản phẩm",
+        "CONTACT": "Liên hệ",
+        "EMP": "EMPLOYEES ONLY"
+    },
+    "BANNER": {
+        "TITLE": "Cần một website để phát triển doanh nghiệp của bạn?",
+        "DESC": "Các website tuyệt vời của chúng tôi sẽ đưa thương hiệu của bạn lên một tầm cao mới"
+    },
+    "ABOUT": {
+        "SUB": "Đôi lời về chúng tôi",
+        "TITLE": "Chúng tôi là một đội ngũ gắn kết với chung mục tiêu hướng đến những điều tốt đẹp",
+        "DESC": "Chúng tôi là một tập thể gồm những lập trình viên phần mềm đầy nhiệt huyết với mong muốn đem đến cho khách hàng những giải pháp hoàn hảo nhất. Những sản phẩm do chúng tôi làm ra luôn đem đến sự hài lòng cao nhất cho mọi khách hàng.",
+        "INFO_CLIENTS": "Khách hàng",
+        "INFO_PROVINCES": "Tỉnh thành",
+        "INFO_SATI": "Hài lòng"
+    },
+    "WE_DO": {
+        "TITLE": "Những giá trị mà chúng tôi mang đến",
+        "SUB_TITLE": "Dịch vụ cao cấp",
+        "DESC": "Chúng tôi dành nhiều thời gian cho việc nghiên cứu các công nghệ mới nhất từ những công ty hàng đầu để tạo ra những trang web nhanh nhất với đầy đủ những tính năng thoả mãn yêu cầu của khách hàng.",
+        "T1": "Phát triển web",
+        "S1": "Chúng tôi thiết kế và tạo website từ đầu",
+        "T2": "Tương thích hoàn hảo",
+        "S2": "Website của bạn tương thích trên tất cả các thiết bị",
+        "T3": "Tùy chỉnh dễ dàng",
+        "S3": "Website của bạn được cập nhật dễ dàng",
+        "T4": "Bảo mật dữ liệu",
+        "S4": "Chúng tôi đảm bảo dữ liệu của bạn được bảo mật cao"
+    },
+    "CHOOSE_US": {
+        "TITLE": "Tại sao lựa chọn chúng tôi",
+        "SUB_TITLE": "Chúng tôi luôn nỗ lực để tạo ra những trang web thú vị nhất",
+        "DESC": "Chúng tôi là một nhóm các nhà phát triển phần mềm, nhà tiếp thị và nhà thiết kế đầy nhiệt huyết, tập trung vào việc thúc đẩy kết quả cho khách hàng của chúng tôi trong việc phát triển nhanh chóng. Chúng tôi đang làm ra những sản phẩm được mọi người dùng yêu thích."
+    },
+    "FEATURES": {
+        "TITLE": "Những tính năng thú vị ",
+        "SUB_TITLE": "Làm cho trang web của bạn mạnh mẽ hơn",
+        "DESC": "Trong quá trình tạo nên một ứng dụng, sự hài lòng của người dùng chính là điều quan trọng nhất, tiêu chí hàng đầu đối vỗi mỗi ứng dụng là tính dễ sử dụng và sự hoàn thiện cao.        ",
+        "T1": "Hiệu suất",
+        "T2": "Tối ưu hóa",
+        "T3": "An toàn",
+        "T4": "Bền vững"
+    },
+    "PRODUCT": {
+        "TITLE": "Những sản phẩm tốt nhất của chúng tôi",
+        "DESC": "Hãy cùng nhìn xem những thứ mà bạn có thể đạt được"
+    },
+    "MEMBER": {
+        "TITLE": "Gặp gỡ team chúng tôi",
+        "SUB": "Những chuyên gia trong đội ngũ",
+        "DESC": "Một đội ngũ gồm những lập trình viên sáng tạo và chuyên nghiệp. Chúng tôi luôn thực hiện những điều mà chúng tôi yêu quý nhất."
+    },
+    "CONTACT": {
+        "TITLE": "Ngừng lãng phí thời gian",
+        "SUB": "Bạn gặp khó khăn khi phát triển doanh nghiệp",
+        "DESC": "Các chuyên gia của chúng tôi sẽ ở đây bất cứ khi nào bạn cần",
+        "T1": "Gửi email cho chúng tôi",
+        "T2": "Gọi cho chúng tôi",
+        "T3": "Địa chỉ của chúng tôi",
+        "I1": "Tên đầy đủ của bạn",
+        "P1": "Nhập tên đầy đủ của bạn",
+        "I2": "Tên công ty của bạn",
+        "P2": "Nhập tên công ty của bạn",
+        "I3": "Số điện thoại của bạn",
+        "P3": "Nhập số điện thoại của bạn",
+        "I4": "Địa chỉ email của bạn",
+        "P4": "Nhập email của bạn",
+        "I5": "Tin nhắn",
+        "P5": "Nhập tin nhắn của bạn",
+        "BTN": "GỬI",
+        "ADDRESS": "Tòa nhà SkyLight, 125D Minh Khai,  Hai Ba Trung, Hanoi"
+    },
+    "FOOTER": {
+        "T1": "Về chúng tôi",
+        "T2": "Liên hệ",
+        "T3": "Điều khoản dịch vụ",
+        "T4": "Riêng tư"
+    }
+}

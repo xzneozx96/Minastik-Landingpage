@@ -23,7 +23,7 @@ img.w-160 {
 /* style banner content */
 h1.banner-title {
   font-size: 70px;
-  line-height: 85px;
+  line-height: 80px;
   color: #3B5998;
   font-weight: 700;
 }
@@ -52,8 +52,8 @@ h1.banner-title {
 /* responsive */
 @media (max-width: 1399px) and (min-width: 991px) {
   h1.banner-title {
-    font-size: 53px;
-    line-height: 65px;
+    font-size: 52px;
+    line-height: 60px;
   }
   img.w-160 {
     width: 105% !important;

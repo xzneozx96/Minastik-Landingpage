@@ -1,16 +1,22 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import { ScrollIntoViewService } from 'src/app/shared/services/scroll-into-view.service';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  logoLink = 'http://pixner.net/mosto/demo/ltr/light/assets/images/logo/logo2.png';
+  logoLink =
+    'http://pixner.net/mosto/demo/ltr/light/assets/images/logo/logo2.png';
   activeBars = false;
-
-  constructor(private scrollIntoViewService: ScrollIntoViewService) { }
+  activeList: boolean = false;
+  language: string = 'VI';
+  constructor(
+    private scrollIntoViewService: ScrollIntoViewService,
+    public translate: TranslateService
+  ) {}
 
   ngOnInit(): void {
     window.addEventListener('scroll', () => {
@@ -34,4 +40,19 @@ export class HeaderComponent implements OnInit {
     this.activeBars = false;
   }
 
+  showListLang(): void {
+    this.activeList = !this.activeList;
+  }
+
+  chooseEN() {
+    this.activeList = false;
+    this.language = 'EN';
+    this.translate.use('en');
+  }
+
+  chooseVI() {
+    this.activeList = false;
+    this.language = 'VI';
+    this.translate.use('vi')
+  }
 }

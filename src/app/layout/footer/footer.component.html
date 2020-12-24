@@ -1,11 +1,11 @@
 <div class="footer">
   <div class="container">
     <div class="footer-top">
-      <div class="logo">
+      <!-- <div class="logo">
         <img
-          src="http://pixner.net/mosto/demo/ltr/light/assets/images/logo/footer-logo.png"
+          class="img-fluid" src="../../../assets/minastik-full-ver.png"
         />
-      </div>
+      </div> -->
       <ul class="social-icons">
         <li>
           <a>
@@ -36,10 +36,10 @@
     </div>
     <div class="footer-bottom">
       <ul class="footer-links">
-        <li><a>About</a></li>
-        <li><a>Contact</a></li>
-        <li><a>Terms of Service</a></li>
-        <li><a>Privacy</a></li>
+        <li><a (click)="selectElement('about')">{{"FOOTER.T1" | translate}}</a></li>
+        <li><a (click)="selectElement('contact')">{{"FOOTER.T2" | translate}}</a></li>
+        <li><a>{{"FOOTER.T3" | translate}}</a></li>
+        <li><a>{{"FOOTER.T4" | translate}}</a></li>
       </ul>
     </div>
     <div class="copy-right">
